@@ -25,11 +25,6 @@ export default function Login() {
     }
   }
 
-  function fillDemo(role: 'admin' | 'analyst') {
-    setUsername(role)
-    setPassword(role === 'admin' ? 'admin123' : 'analyst123')
-  }
-
   return (
     <div className="flex min-h-screen items-center justify-center bg-bg px-4">
       <div className="w-full max-w-sm">
@@ -85,26 +80,6 @@ export default function Login() {
             {loading && <Loader2 size={15} className="animate-spin" />}
             Sign in
           </button>
-
-          <div className="border-t border-border pt-3 text-center text-[11px] text-slate-500">
-            Demo accounts
-            <div className="mt-2 flex justify-center gap-2">
-              <button
-                type="button"
-                onClick={() => fillDemo('admin')}
-                className="cursor-pointer rounded border border-border px-2 py-1 text-slate-400 hover:border-primary hover:text-primary"
-              >
-                admin / admin123
-              </button>
-              <button
-                type="button"
-                onClick={() => fillDemo('analyst')}
-                className="cursor-pointer rounded border border-border px-2 py-1 text-slate-400 hover:border-primary hover:text-primary"
-              >
-                analyst / analyst123
-              </button>
-            </div>
-          </div>
         </form>
       </div>
     </div>
