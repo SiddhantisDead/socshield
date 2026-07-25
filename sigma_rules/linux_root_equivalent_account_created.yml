@@ -1,0 +1,20 @@
+title: Root-Equivalent Local Account Created (UID 0)
+id: a1111111-0003-4001-8001-000000000003
+status: stable
+description: >
+  Detects creation of a new local user account with UID 0, granting it full
+  root privileges - a common persistence technique for maintaining a hidden
+  backdoor account.
+author: SOCShield
+logsource:
+  category: process_creation
+  product: linux
+detection:
+  selection:
+    Action: 'New user'
+    UID: 0
+  condition: selection
+level: critical
+tags:
+  - attack.persistence
+  - attack.t1136

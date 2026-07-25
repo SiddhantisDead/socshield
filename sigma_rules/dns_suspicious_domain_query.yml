@@ -1,0 +1,24 @@
+title: DNS Query to Suspicious TLD or DGA-like Domain
+id: a1111111-0010-4001-8001-000000000010
+status: stable
+description: >
+  Detects DNS lookups for domains under TLDs frequently abused for
+  disposable C2/phishing infrastructure, or for long, high-entropy-looking
+  subdomain labels consistent with a domain generation algorithm (DGA).
+author: SOCShield
+logsource:
+  category: dns
+detection:
+  selection_tld:
+    QueryName|endswith:
+      - '.xyz'
+      - '.top'
+      - '.club'
+      - '.gq'
+  selection_dga:
+    QueryName|re: '^[a-z0-9]{16,}\.'
+  condition: 1 of selection_*
+level: medium
+tags:
+  - attack.command_and_control
+  - attack.t1071

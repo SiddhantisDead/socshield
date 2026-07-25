@@ -1,0 +1,40 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: docker/backend.Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: sqlite:///./data/soc_shield.db
+      CORS_ORIGINS: http://localhost:5173,http://localhost:8080
+      # VIRUSTOTAL_API_KEY / ABUSEIPDB_API_KEY: uncomment and set to use real
+      # threat-intel lookups instead of the built-in mock responses.
+    volumes:
+      - backend_data:/app/backend/data
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  frontend:
+    build:
+      context: .
+      dockerfile: docker/frontend.Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+
+networks:
+  default:
+    driver: bridge
+    driver_opts:
+      # Some networks (VPNs, certain ISPs/WiFi, tunneled connections) have a
+      # path MTU below Docker's default 1500, which causes large transfers to
+      # hang rather than fail cleanly. 1400 is a conservative safe value.
+      com.docker.network.driver.mtu: 1400
+
+volumes:
+  backend_data:

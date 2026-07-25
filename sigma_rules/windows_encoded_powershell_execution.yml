@@ -1,0 +1,26 @@
+title: Suspicious Encoded/Hidden PowerShell Execution
+id: a1111111-0004-4001-8001-000000000004
+status: stable
+description: >
+  Detects PowerShell invoked with an encoded command and/or a hidden window,
+  a very common technique for delivering obfuscated payloads and evading
+  simple command-line logging review.
+author: SOCShield
+logsource:
+  category: process_creation
+  product: windows
+detection:
+  selection_image:
+    Image|endswith: '\powershell.exe'
+  selection_flags:
+    CommandLine|contains:
+      - '-enc'
+      - '-EncodedCommand'
+      - '-nop'
+      - '-w hidden'
+      - '-windowstyle hidden'
+  condition: selection_image and selection_flags
+level: high
+tags:
+  - attack.execution
+  - attack.t1059.001

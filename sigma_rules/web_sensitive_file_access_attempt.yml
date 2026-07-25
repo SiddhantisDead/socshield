@@ -1,0 +1,24 @@
+title: Attempted Access to Sensitive Config/VCS File on Web Server
+id: a1111111-0008-4001-8001-000000000008
+status: stable
+description: >
+  Detects requests for files that should never be served by a web server but
+  are frequently probed for by attackers - .env files, exposed .git
+  metadata, and path-traversal attempts toward /etc/passwd.
+author: SOCShield
+logsource:
+  category: webserver
+  product: apache
+detection:
+  selection:
+    Uri|contains:
+      - '.env'
+      - '.git/config'
+      - 'wp-config.php'
+      - '../../../etc/passwd'
+      - '..%2f..%2f..%2fetc%2fpasswd'
+  condition: selection
+level: high
+tags:
+  - attack.initial_access
+  - attack.t1190

@@ -1,0 +1,25 @@
+title: SQL Injection Attempt in HTTP Request
+id: a1111111-0007-4001-8001-000000000007
+status: stable
+description: >
+  Detects common SQL injection payload patterns (UNION SELECT, tautology
+  based auth bypass, inline comments) in the request URI of a web server
+  access log.
+author: SOCShield
+logsource:
+  category: webserver
+  product: apache
+detection:
+  selection:
+    Uri|contains:
+      - 'union+select'
+      - 'UNION SELECT'
+      - "' OR '1'='1"
+      - "' or '1'='1"
+      - '--+'
+      - 'sleep(5)'
+  condition: selection
+level: high
+tags:
+  - attack.initial_access
+  - attack.t1190

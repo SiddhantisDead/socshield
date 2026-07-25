@@ -1,0 +1,20 @@
+title: SSH Login Attempt for Invalid/Non-existent User
+id: a1111111-0001-4001-8001-000000000001
+status: stable
+description: >
+  Detects SSH authentication attempts against a username that does not exist
+  on the system, a common precursor to credential brute-forcing / username
+  enumeration.
+author: SOCShield
+logsource:
+  category: authentication
+  product: linux
+detection:
+  selection:
+    Process: sshd
+    Action: 'Invalid user'
+  condition: selection
+level: medium
+tags:
+  - attack.credential_access
+  - attack.t1110

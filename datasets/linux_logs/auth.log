@@ -1,0 +1,33 @@
+Jul 25 09:03:59 web01 sshd[1000]: Accepted password for administrator from 192.168.1.50 port 40000 ssh2
+Jul 25 09:06:26 web01 sshd[1001]: Accepted password for jsmith from 192.168.1.50 port 40001 ssh2
+Jul 25 09:07:47 web01 sshd[1002]: Accepted password for analyst from 10.0.0.5 port 40002 ssh2
+Jul 25 09:09:24 web01 sshd[1003]: Accepted password for jsmith from 192.168.1.50 port 40003 ssh2
+Jul 25 09:12:47 web01 sshd[1004]: Accepted password for administrator from 192.168.1.50 port 40004 ssh2
+Jul 25 09:16:10 web01 sshd[1005]: Accepted password for administrator from 10.0.1.20 port 40005 ssh2
+Jul 25 09:21:03 web01 sshd[1006]: Accepted password for analyst from 10.0.0.5 port 40006 ssh2
+Jul 25 09:24:47 web01 sshd[1007]: Accepted password for svc_backup from 10.0.1.20 port 40007 ssh2
+Jul 25 09:29:47 web01 sshd[2000]: Failed password for invalid user root from 198.51.100.23 port 50000 ssh2
+Jul 25 09:29:53 web01 sshd[2000]: Invalid user root from 198.51.100.23 port 50000
+Jul 25 09:30:53 web01 sshd[2001]: Failed password for invalid user admin from 198.51.100.23 port 50001 ssh2
+Jul 25 09:30:59 web01 sshd[2001]: Invalid user admin from 198.51.100.23 port 50001
+Jul 25 09:31:59 web01 sshd[2002]: Failed password for invalid user test from 198.51.100.23 port 50002 ssh2
+Jul 25 09:32:05 web01 sshd[2002]: Invalid user test from 198.51.100.23 port 50002
+Jul 25 09:33:05 web01 sshd[2003]: Failed password for invalid user oracle from 198.51.100.23 port 50003 ssh2
+Jul 25 09:33:11 web01 sshd[2003]: Invalid user oracle from 198.51.100.23 port 50003
+Jul 25 09:34:11 web01 sshd[2004]: Failed password for invalid user postgres from 198.51.100.23 port 50004 ssh2
+Jul 25 09:34:17 web01 sshd[2004]: Invalid user postgres from 198.51.100.23 port 50004
+Jul 25 09:35:17 web01 sshd[2005]: Failed password for invalid user ubuntu from 198.51.100.23 port 50005 ssh2
+Jul 25 09:35:23 web01 sshd[2005]: Invalid user ubuntu from 198.51.100.23 port 50005
+Jul 25 09:36:23 web01 sshd[2006]: Failed password for invalid user guest from 198.51.100.23 port 50006 ssh2
+Jul 25 09:36:29 web01 sshd[2006]: Invalid user guest from 198.51.100.23 port 50006
+Jul 25 09:46:47 web01 sshd[3001]: Failed password for analyst from 10.0.0.5 port 55321 ssh2
+Jul 25 09:58:47 db01 sudo[4001]: www-data : TTY=pts/1 ; PWD=/var/www ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jul 25 09:59:17 db01 sudo[4002]: www-data : TTY=pts/1 ; PWD=/var/www ; USER=root ; COMMAND=/bin/cat /etc/passwd
+Jul 25 10:05:17 db01 useradd[4010]: new user: name=backdoor, UID=0, GID=0, home=/root, shell=/bin/bash
+Jul 25 10:25:17 web01 useradd[4020]: new user: name=kjohnson, UID=1005, GID=1005, home=/home/kjohnson, shell=/bin/bash
+Jul 25 10:32:08 web02 sshd[5000]: Accepted password for analyst from 10.0.1.20 port 41000 ssh2
+Jul 25 10:37:18 web02 sshd[5001]: Accepted password for analyst from 10.0.1.20 port 41001 ssh2
+Jul 25 10:45:10 web01 sshd[5002]: Accepted password for svc_backup from 10.0.0.5 port 41002 ssh2
+Jul 25 10:52:31 web02 sshd[5003]: Accepted password for svc_backup from 10.0.0.12 port 41003 ssh2
+Jul 25 10:56:17 web01 sshd[5004]: Accepted password for svc_backup from 10.0.0.5 port 41004 ssh2
+Jul 25 11:02:16 web02 sshd[5005]: Accepted password for analyst from 10.0.0.5 port 41005 ssh2

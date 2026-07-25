@@ -1,0 +1,272 @@
+[
+  {
+    "timestamp": "2026-07-25T09:00:47Z",
+    "hostname": "ws-fin-07",
+    "SourceIp": "10.0.0.12",
+    "QueryName": "microsoft.com",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "93.184.216.34"
+  },
+  {
+    "timestamp": "2026-07-25T09:01:24Z",
+    "hostname": "dc01",
+    "SourceIp": "10.0.0.5",
+    "QueryName": "office365.com",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "93.184.216.34"
+  },
+  {
+    "timestamp": "2026-07-25T09:04:12Z",
+    "hostname": "ws-fin-07",
+    "SourceIp": "10.0.0.12",
+    "QueryName": "microsoft.com",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "93.184.216.34"
+  },
+  {
+    "timestamp": "2026-07-25T09:05:47Z",
+    "hostname": "ws-hr-12",
+    "SourceIp": "10.0.1.20",
+    "QueryName": "office365.com",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "93.184.216.34"
+  },
+  {
+    "timestamp": "2026-07-25T09:07:04Z",
+    "hostname": "web01",
+    "SourceIp": "10.0.1.20",
+    "QueryName": "office365.com",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "93.184.216.34"
+  },
+  {
+    "timestamp": "2026-07-25T09:08:21Z",
+    "hostname": "dc01",
+    "SourceIp": "10.0.1.20",
+    "QueryName": "cloudflare.com",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "93.184.216.34"
+  },
+  {
+    "timestamp": "2026-07-25T09:10:35Z",
+    "hostname": "ws-fin-07",
+    "SourceIp": "10.0.0.12",
+    "QueryName": "github.com",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "93.184.216.34"
+  },
+  {
+    "timestamp": "2026-07-25T09:12:08Z",
+    "hostname": "dc01",
+    "SourceIp": "10.0.0.12",
+    "QueryName": "office365.com",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "93.184.216.34"
+  },
+  {
+    "timestamp": "2026-07-25T09:14:04Z",
+    "hostname": "dc01",
+    "SourceIp": "10.0.0.5",
+    "QueryName": "microsoft.com",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "93.184.216.34"
+  },
+  {
+    "timestamp": "2026-07-25T09:15:17Z",
+    "hostname": "dc01",
+    "SourceIp": "10.0.1.20",
+    "QueryName": "cloudflare.com",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "93.184.216.34"
+  },
+  {
+    "timestamp": "2026-07-25T09:16:53Z",
+    "hostname": "ws-hr-12",
+    "SourceIp": "10.0.0.12",
+    "QueryName": "office365.com",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "93.184.216.34"
+  },
+  {
+    "timestamp": "2026-07-25T09:18:34Z",
+    "hostname": "ws-hr-12",
+    "SourceIp": "10.0.0.12",
+    "QueryName": "google.com",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "93.184.216.34"
+  },
+  {
+    "timestamp": "2026-07-25T09:19:46Z",
+    "hostname": "ws-hr-12",
+    "SourceIp": "10.0.1.20",
+    "QueryName": "google.com",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "93.184.216.34"
+  },
+  {
+    "timestamp": "2026-07-25T09:22:19Z",
+    "hostname": "web02",
+    "SourceIp": "10.0.1.20",
+    "QueryName": "github.com",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "93.184.216.34"
+  },
+  {
+    "timestamp": "2026-07-25T09:24:50Z",
+    "hostname": "web02",
+    "SourceIp": "10.0.0.5",
+    "QueryName": "google.com",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "93.184.216.34"
+  },
+  {
+    "timestamp": "2026-07-25T09:26:50Z",
+    "hostname": "ws-fin-07",
+    "SourceIp": "10.0.1.20",
+    "QueryName": "update-service.xyz",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "185.220.101.45"
+  },
+  {
+    "timestamp": "2026-07-25T09:28:50Z",
+    "hostname": "ws-fin-07",
+    "SourceIp": "10.0.1.20",
+    "QueryName": "cdn-cache.top",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "185.220.101.45"
+  },
+  {
+    "timestamp": "2026-07-25T09:30:50Z",
+    "hostname": "ws-fin-07",
+    "SourceIp": "10.0.1.20",
+    "QueryName": "portal-auth.club",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "185.220.101.45"
+  },
+  {
+    "timestamp": "2026-07-25T09:32:50Z",
+    "hostname": "ws-fin-07",
+    "SourceIp": "10.0.1.20",
+    "QueryName": "mgmt-console.gq",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "185.220.101.45"
+  },
+  {
+    "timestamp": "2026-07-25T09:34:20Z",
+    "hostname": "ws-fin-07",
+    "SourceIp": "10.0.1.20",
+    "QueryName": "kq3jd9fbslxoqpz7mn2a.badinfra.net",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "185.220.101.45"
+  },
+  {
+    "timestamp": "2026-07-25T09:35:50Z",
+    "hostname": "ws-fin-07",
+    "SourceIp": "10.0.1.20",
+    "QueryName": "z8x1vbnmqwpoeiudkfjs.badinfra.net",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "185.220.101.45"
+  },
+  {
+    "timestamp": "2026-07-25T09:37:20Z",
+    "hostname": "ws-fin-07",
+    "SourceIp": "10.0.1.20",
+    "QueryName": "a9s8d7f6g5h4j3k2l1qw.badinfra.net",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "185.220.101.45"
+  },
+  {
+    "timestamp": "2026-07-25T09:38:27Z",
+    "hostname": "dc01",
+    "SourceIp": "10.0.0.5",
+    "QueryName": "cloudflare.com",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "93.184.216.34"
+  },
+  {
+    "timestamp": "2026-07-25T09:39:59Z",
+    "hostname": "ws-hr-12",
+    "SourceIp": "10.0.0.12",
+    "QueryName": "cloudflare.com",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "93.184.216.34"
+  },
+  {
+    "timestamp": "2026-07-25T09:41:43Z",
+    "hostname": "web02",
+    "SourceIp": "10.0.0.12",
+    "QueryName": "google.com",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "93.184.216.34"
+  },
+  {
+    "timestamp": "2026-07-25T09:44:27Z",
+    "hostname": "web01",
+    "SourceIp": "192.168.1.50",
+    "QueryName": "github.com",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "93.184.216.34"
+  },
+  {
+    "timestamp": "2026-07-25T09:45:23Z",
+    "hostname": "ws-hr-12",
+    "SourceIp": "192.168.1.50",
+    "QueryName": "google.com",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "93.184.216.34"
+  },
+  {
+    "timestamp": "2026-07-25T09:47:17Z",
+    "hostname": "web01",
+    "SourceIp": "192.168.1.50",
+    "QueryName": "github.com",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "93.184.216.34"
+  },
+  {
+    "timestamp": "2026-07-25T09:49:47Z",
+    "hostname": "ws-hr-12",
+    "SourceIp": "10.0.1.20",
+    "QueryName": "cloudflare.com",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "93.184.216.34"
+  },
+  {
+    "timestamp": "2026-07-25T09:51:49Z",
+    "hostname": "ws-hr-12",
+    "SourceIp": "192.168.1.50",
+    "QueryName": "office365.com",
+    "QueryType": "A",
+    "ResponseCode": "NOERROR",
+    "Answer": "93.184.216.34"
+  }
+]

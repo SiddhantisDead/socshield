@@ -1,0 +1,22 @@
+title: Windows Account Created or Added to Privileged Group
+id: a1111111-0006-4001-8001-000000000006
+status: stable
+description: >
+  Detects Windows Security event IDs for local user account creation (4720)
+  or addition of a member to a privileged local group (4732), which can
+  indicate persistence via a new or newly-elevated account.
+author: SOCShield
+logsource:
+  category: authentication
+  product: windows
+  service: security
+detection:
+  selection:
+    EventID:
+      - 4720
+      - 4732
+  condition: selection
+level: medium
+tags:
+  - attack.persistence
+  - attack.t1136

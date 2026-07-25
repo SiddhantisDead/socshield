@@ -1,0 +1,25 @@
+title: Office Application Spawning Command Shell
+id: a1111111-0005-4001-8001-000000000005
+status: stable
+description: >
+  Detects a Microsoft Office application (Word/Excel) spawning cmd.exe or
+  powershell.exe, the classic signature of a malicious macro executing its
+  payload.
+author: SOCShield
+logsource:
+  category: process_creation
+  product: windows
+detection:
+  selection_parent:
+    ParentImage|endswith:
+      - '\WINWORD.EXE'
+      - '\EXCEL.EXE'
+  selection_child:
+    Image|endswith:
+      - '\cmd.exe'
+      - '\powershell.exe'
+  condition: selection_parent and selection_child
+level: high
+tags:
+  - attack.execution
+  - attack.t1204

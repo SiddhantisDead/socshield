@@ -1,0 +1,24 @@
+title: Inbound Connection to Sensitive Port Denied
+id: a1111111-0009-4001-8001-000000000009
+status: stable
+description: >
+  Detects firewall-denied inbound connection attempts toward ports commonly
+  targeted for lateral movement and remote access abuse (RDP, SMB, Telnet,
+  MySQL) - typically internet background-noise scanning, but worth tracking
+  for repeated offenders.
+author: SOCShield
+logsource:
+  category: firewall
+detection:
+  selection:
+    Action: 'DENY'
+    DestinationPort:
+      - 3389
+      - 445
+      - 23
+      - 3306
+  condition: selection
+level: medium
+tags:
+  - attack.reconnaissance
+  - attack.t1595.001
