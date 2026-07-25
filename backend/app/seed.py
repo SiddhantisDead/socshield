@@ -33,6 +33,7 @@ DATASET_MAP = {
 
 def seed_users(db):
     demo_users = [
+        ("bladewasworthit", "bladewasworthit@socshield.local", "socblade", UserRole.admin),
         ("admin", "admin@socshield.local", "admin123", UserRole.admin),
         ("analyst", "analyst@socshield.local", "analyst123", UserRole.analyst),
     ]

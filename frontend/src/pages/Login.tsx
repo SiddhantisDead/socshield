@@ -25,9 +25,9 @@ export default function Login() {
     }
   }
 
-  function fillDemo(role: 'admin' | 'analyst') {
-    setUsername(role)
-    setPassword(role === 'admin' ? 'admin123' : 'analyst123')
+  function fillDemo(role: 'owner' | 'analyst') {
+    setUsername(role === 'owner' ? 'bladewasworthit' : 'analyst')
+    setPassword(role === 'owner' ? 'socblade' : 'analyst123')
   }
 
   return (
@@ -91,10 +91,10 @@ export default function Login() {
             <div className="mt-2 flex justify-center gap-2">
               <button
                 type="button"
-                onClick={() => fillDemo('admin')}
+                onClick={() => fillDemo('owner')}
                 className="cursor-pointer rounded border border-border px-2 py-1 text-slate-400 hover:border-primary hover:text-primary"
               >
-                admin / admin123
+                bladewasworthit / socblade
               </button>
               <button
                 type="button"
